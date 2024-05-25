@@ -9,9 +9,11 @@ Criado uma instância da classe FastAPI chamada app.
 Definido o modelo de dados Cliente usando a classe BaseModel, que inclui os campos id, nome, email e telefone.
 Inicializado uma lista vazia chamada clientes para armazenar as informações dos clientes.
 Criado duas rotas:
-POST /clientes: Adiciona um novo cliente à lista. Primeiro, verifica se o ID do cliente já existe. Se não, o cliente é adicionado à lista e retornado.
-GET /clientes/{cliente_id}: Retorna os detalhes de um cliente específico pelo ID. Se o cliente não for encontrado, uma exceção HTTPException é lançada com o código de status 404 (Not Found).
-
+--
+* POST /clientes: Adiciona um novo cliente à lista. Primeiro, verifica se o ID do cliente já existe. Se não, o cliente é adicionado à lista e retornado.
+--
+* GET /clientes/{cliente_id}: Retorna os detalhes de um cliente específico pelo ID. Se o cliente não for encontrado, uma exceção HTTPException é lançada com o código de status 404 (Not Found).
+---
 
 ## Instruções de configuração e execução:
 --
