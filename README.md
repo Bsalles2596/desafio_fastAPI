@@ -11,10 +11,10 @@ Inicializado uma lista vazia chamada clientes para armazenar as informações do
 Criado duas rotas:
 POST /clientes: Adiciona um novo cliente à lista. Primeiro, verifica se o ID do cliente já existe. Se não, o cliente é adicionado à lista e retornado.
 GET /clientes/{cliente_id}: Retorna os detalhes de um cliente específico pelo ID. Se o cliente não for encontrado, uma exceção HTTPException é lançada com o código de status 404 (Not Found).
---
+
 
 ## Instruções de configuração e execução:
-
+--
 ### Certifique-se de ter o Python 3.7 ou superior instalado.
 ### Crie um ambiente virtual venv.
 
@@ -48,7 +48,10 @@ GET /clientes/{cliente_id}: Retorna os detalhes de um cliente específico pelo I
 ### Você pode testar as rotas usando ferramentas como o Postman ou o cURL. 
 ## Por exemplo, para adicionar um novo cliente:
 
-   # curl http://localhost:8000/clientes
+
+~~~
+   $  curl http://localhost:8000/clientes
+~~~
 
 body
 
@@ -61,19 +64,24 @@ body
 
 ### E para obter os detalhes de um cliente:
 
-	# curl http://localhost:8000/clientes/5
-	
+~~~
+   $  curl http://localhost:8000/clientes/5
+~~~
+
 ## Este código implementa as seguintes funcionalidades:
 
 ### Definição do modelo de dados Cliente usando Pydantic.
-### Simulação de um banco de dados em memória usando uma lista chamada clientes.
-### Implementação da rota POST /clientes/ para criar um novo cliente.
+#### Simulação de um banco de dados em memória usando uma lista chamada clientes.
+#### Implementação da rota POST /clientes/ para criar um novo cliente.
 
 ## Exemplo de uso:
 
 ### Implementação da rota GET /clientes/{cliente_id} para obter os detalhes de um cliente específico.	
 
-# Testes unitários com cobertura
+---
+# Testes unitários com cobertura 
+
+   ### test_main.py
 
 ## Para executar os testes, você pode usar o seguinte comando:
 
@@ -84,7 +92,7 @@ body
 ### Isso irá executar os testes e exibir os resultados.
 ---
 
-Para visualizar o projeto completo acesse repositório do Github ou do Gitlab e fique à vontade para brincar o quanto quiser:
+Para visualizar o projeto completo acesse repositório do Github ou fique à vontade para brincar o quanto quiser:
 
 [Repositório Github](https://github.com/)
 

@@ -53,13 +53,6 @@ def test_cliente_nao_encontrado():
 
 	# pip install fastapi uvicorn pytest
 	
-# Salve o código da aplicação em um arquivo chamado main.py.
-# Salve o código de teste em um arquivo chamado test_main.py.
-
-### Execute a aplicação
-
-	# uvicorn main:app --reload
-	
 ### Execute os testes:
 
 	# pytest
