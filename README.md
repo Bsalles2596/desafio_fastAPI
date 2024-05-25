@@ -1,4 +1,4 @@
-# Desafio FastAPI JEITTO
+# Desafio FastAPI (Jeitto)
 ## Aplicação CRUD Básica:
 
 ## Aqui está uma explicação do código:
