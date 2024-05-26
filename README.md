@@ -16,7 +16,7 @@ Criado duas rotas:
 ---
 
 ## Instruções de configuração e execução:
---
+
 ### Certifique-se de ter o Python 3.7 ou superior instalado.
 ### Crie um ambiente virtual venv.
 
