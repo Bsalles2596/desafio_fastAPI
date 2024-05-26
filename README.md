@@ -1,4 +1,4 @@
-# Desafio FastAPI
+# Desafio FastAPI (Jeitto)
 ## Aplicação CRUD Básica:
 
 ## Aqui está uma explicação do código:
@@ -94,7 +94,7 @@ body
 ### Isso irá executar os testes e exibir os resultados.
 ---
 
-Para visualizar o projeto completo acesse repositório do Github ou fique à vontade para brincar o quanto quiser:
+Para visualizar o projeto completo acesse repositório do Github:
 
 [Repositório Github](https://github.com/)
 
